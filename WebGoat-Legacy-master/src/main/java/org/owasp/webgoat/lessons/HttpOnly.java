@@ -1,12 +1,14 @@
 
 package org.owasp.webgoat.lessons;
 
+import java.security.MessageDigest;
 import java.util.ArrayList;
 import java.util.Base64;
 import java.util.Date;
 import java.util.List;
-import java.security.MessageDigest;
+
 import javax.servlet.http.HttpServletResponse;
+
 import org.apache.ecs.Element;
 import org.apache.ecs.ElementContainer;
 import org.apache.ecs.StringElement;
@@ -18,7 +20,6 @@ import org.apache.ecs.html.TD;
 import org.apache.ecs.html.TR;
 import org.apache.ecs.html.Table;
 import org.owasp.webgoat.session.WebSession;
-import sun.misc.BASE64Encoder;
 
 
 /***************************************************************************************************
