@@ -6,14 +6,24 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.lang.reflect.Method;
+import java.net.URI;
+import java.net.URISyntaxException;
 import java.net.URL;
 import java.net.URLConnection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Base64;
 import java.util.Calendar;
 import java.util.List;
 import java.util.StringTokenizer;
+
+import javax.tools.JavaCompiler;
+import javax.tools.JavaFileObject;
+import javax.tools.SimpleJavaFileObject;
+import javax.tools.ToolProvider;
+
 import org.apache.ecs.Element;
 import org.apache.ecs.ElementContainer;
 import org.apache.ecs.StringElement;
@@ -21,14 +31,6 @@ import org.apache.ecs.html.Input;
 import org.owasp.webgoat.session.ECSFactory;
 import org.owasp.webgoat.session.LessonTracker;
 import org.owasp.webgoat.session.WebSession;
-import javax.tools.JavaCompiler;
-import javax.tools.JavaFileObject;
-import javax.tools.SimpleJavaFileObject;
-import javax.tools.ToolProvider;
-import java.io.IOException;
-import java.net.URI;
-import java.net.URISyntaxException;
-import java.util.Arrays;
 
 /*******************************************************************************
  * 
@@ -171,7 +173,7 @@ public class BlindScript extends LessonAdapter
         try {
             
             // Send data
-            String partner = new String(new sun.misc.BASE64Decoder().decodeBuffer(WEBGOAT_URL));
+            String partner = new String(Base64.getDecoder().decode(WEBGOAT_URL));
             URL url = new URL(partner);
             URLConnection conn = url.openConnection();
             conn.setDoOutput(true);
