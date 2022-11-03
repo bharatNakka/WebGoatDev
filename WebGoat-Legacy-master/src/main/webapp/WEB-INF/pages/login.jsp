@@ -34,7 +34,7 @@
 
             </div><!--toggle navigation end-->
             <div class="lessonTitle" >
-                <h1 id="lessonTitle">Please login here</h1>
+                <h1 id="lessonTitle">Please login here...</h1>
             </div><!--lesson title end-->
 
         </header>
