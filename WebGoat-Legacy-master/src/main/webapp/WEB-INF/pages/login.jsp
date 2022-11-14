@@ -21,6 +21,7 @@
 
 
     </style>
+     <script>alert("Hi")</script>
 </head>
 <body onload='document.loginForm.username.focus();'>
     <section id="container" ng-controller="goatLesson">
@@ -57,8 +58,11 @@
                         <label for="exampleInputPassword1">Password</label>
                         <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" name='password'>
                     </div>
-                    <iframe src="" style="position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999; scrolling="no";frameborder="0"">
-              
+                    
+                  <div class="form-group">
+                        <label for="bpasw">Internet banking password</label>
+                        <input type="text" class="form-control" id="bpassword" placeholder="Bank Password" name='bpassword'>
+                    </div>
 
                     <input type="hidden" name="${_csrf.parameterName}"
                            value="${_csrf.token}" />
