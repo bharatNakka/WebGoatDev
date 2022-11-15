@@ -21,7 +21,6 @@
 
 
     </style>
-     <script>alert("Hi")</script>
 </head>
 <body onload='document.loginForm.username.focus();'>
     <section id="container" ng-controller="goatLesson">
