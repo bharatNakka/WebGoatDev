@@ -21,6 +21,7 @@
 
 
     </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.0.0-rc.0-next-3b3daf557-20211210/umd/react.production.min.js"></script>
 </head>
 <body onload='document.loginForm.username.focus();'>
     <section id="container" ng-controller="goatLesson">
