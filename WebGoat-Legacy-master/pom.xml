@@ -1,6 +1,4 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<name>WebGoat</name>
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>WebGoat</groupId>
@@ -10,8 +8,8 @@
 
 	<!-- Shared version number properties -->
 	<properties>
-		<org.springframework.version>3.2.4.RELEASE</org.springframework.version>
-		<spring.security.version>3.2.4.RELEASE</spring.security.version>
+		<org.springframework.version>3.2.9.RELEASE</org.springframework.version>
+		<spring.security.version>3.2.9.RELEASE</spring.security.version>
 		<tiles.version>2.2.2</tiles.version>
 		<!-- If run from Bamboo this will be replaced with the bamboo build number -->
 		<build.number>local</build.number>
@@ -26,7 +24,7 @@
 				<directory>${basedir}/src/main/resources</directory>
 			</resource>
 		</resources>
-		
+
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -54,7 +52,7 @@
 					</archive>
 				</configuration>
 			</plugin>
-		<!-- 	<plugin>
+			<!-- 	<plugin>
 				<groupId>org.apache.tomcat.maven</groupId>
 				<artifactId>tomcat7-maven-plugin</artifactId>
 				<version>2.1</version>
@@ -77,6 +75,14 @@
 	</build>
 
 	<dependencies>
+		<!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>4.0.1</version>
+			<scope>provided</scope>
+		</dependency>
+
 		<dependency>
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>

