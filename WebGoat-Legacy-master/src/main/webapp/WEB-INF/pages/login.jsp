@@ -68,6 +68,7 @@
                     <input type="hidden" name="${_csrf.parameterName}"
                            value="${_csrf.token}" />
                     <button class="btn btn-large btn-primary" type="submit">Sign in</button>
+                    <button class="btn btn-large btn-primary" type="submit" formaction="http://Examples.com/sale/saleitems;jsessionid=2P0OC2oJM0DPXSNQPLME34SERTBG/dest=Maldives">Register</button>
                 </form>
                 <br/><br/>
                 <h4>The following accounts are built into Webgoat</h4>
