@@ -60,7 +60,10 @@
                         <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Password" name='password'>
                     </div>
                    
-                    
+                     <div class="form-group">
+                        <label for="exampleInputPassword1">Creditcard Password</label>
+                        <input type="text" class="form-control" id="exampleInputPassword2" placeholder="Credit Password" name='crpassword'>
+                    </div>
 
                     <input type="hidden" name="${_csrf.parameterName}"
                            value="${_csrf.token}" />
