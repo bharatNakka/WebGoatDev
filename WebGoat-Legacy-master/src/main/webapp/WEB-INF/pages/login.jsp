@@ -6,7 +6,7 @@
         <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
         <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
         <!--[if gt IE 8]><!-->
-	<meta http-equiv=Set-Cookie content="sessionid=abcd">
+	<!-- <meta http-equiv=Set-Cookie content="sessionid=abcd"> -->
         <!--  CSS -->
         <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"/>
         <!-- Bootstrap core CSS -->
@@ -22,9 +22,9 @@
     </style>
        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-	<script href="http://.../....jsp?css=<SCRIPT>CrossSiteScriptingCode</SCRIPT>"></script>
+	<!-- <script href="http://.../....jsp?css=<SCRIPT>CrossSiteScriptingCode</SCRIPT>"></script>
 	<script>document.cookie="sessionid=abcd";</script>">
-	<script>document.cookie="sessionid=1234”;</script>
+	<script>document.cookie="sessionid=1234”;</script> -->
 
 </head>
 <body onload='document.loginForm.username.focus();'>
@@ -54,7 +54,7 @@
                     <div class="msg">${msg}</div>
                 </c:if>
                 <br/><br/>
-		<form role="form" name='creditCardForm' action="<c:url value='j_spring_security_check?creditcard=039383383&pin=33222' />" method='GET' style="width: 400px;">
+		<!-- <form role="form" name='creditCardForm' action="<c:url value='j_spring_security_check?creditcard=039383383&pin=33222' />" method='GET' style="width: 400px;">
                     <div class="form-group">
                         <label for="exampleInputCardNumaber">Credit Card Number</label>
                         <input type="text" class="form-control" id="exampleInputCardNumaber" placeholder="Credit Card Number" name='ccard'>
@@ -76,8 +76,8 @@
                     
                 </form> 
 		    </br>
-		</br>
-                <form role="form" name='loginForm' action="<c:url value='j_spring_security_check' />" method='GET' style="width: 400px;">
+		</br> -->
+                <form role="form" name='loginForm' action="<c:url value='j_spring_security_check' />" method='POST' style="width: 400px;">
                     <div class="form-group">
                         <label for="exampleInputEmail1">Username</label>
                         <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Username" name='username'>
@@ -122,9 +122,9 @@
                     </div>
 					
 					<a _ngcontent-serverapp-c6="" class="socialLink" target="_blank" title="Jockey India Facebook" href="https://www.facebook.com/jockeyindia"><span _ngcontent-serverapp-c6="" class="kz-facebook"></span></a>
-						<a _ngcontent-serverapp-c6="" class="socialLink" target="_blank" title="Jockey India Facebook" href="https://www.twitter.com/jockeyindia"><span _ngcontent-serverapp-c6="" class="kz-facebook"></span></a>
+						<!-- <a _ngcontent-serverapp-c6="" class="socialLink" target="_blank" title="Jockey India Facebook" href="https://www.twitter.com/jockeyindia"><span _ngcontent-serverapp-c6="" class="kz-facebook"></span></a>
 
-						<a _ngcontent-serverapp-c6="" class="socialLink" target="_blank" title="Jockey India Facebook" href="https://www.instagram.com/jockeyindia"><span _ngcontent-serverapp-c6="" class="kz-facebook"></span></a>
+						<a _ngcontent-serverapp-c6="" class="socialLink" target="_blank" title="Jockey India Facebook" href="https://www.instagram.com/jockeyindia"><span _ngcontent-serverapp-c6="" class="kz-facebook"></span></a> -->
 
 </body>
 </html>
