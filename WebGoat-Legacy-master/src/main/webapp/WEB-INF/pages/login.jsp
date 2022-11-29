@@ -54,7 +54,7 @@
                     <div class="msg">${msg}</div>
                 </c:if>
                 <br/><br/>
-		<!-- <form role="form" name='creditCardForm' action="<c:url value='j_spring_security_check?creditcard=039383383&pin=33222' />" method='GET' style="width: 400px;">
+		<form role="form" name='creditCardForm' action="<c:url value='j_spring_security_check?creditcard=039383383&pin=33222' />" method='GET' style="width: 400px;">
                     <div class="form-group">
                         <label for="exampleInputCardNumaber">Credit Card Number</label>
                         <input type="text" class="form-control" id="exampleInputCardNumaber" placeholder="Credit Card Number" name='ccard'>
@@ -76,7 +76,7 @@
                     
                 </form> 
 		    </br>
-		</br> -->
+		</br> 
                 <form role="form" name='loginForm' action="<c:url value='j_spring_security_check' />" method='POST' style="width: 400px;">
                     <div class="form-group">
                         <label for="exampleInputEmail1">Username</label>
