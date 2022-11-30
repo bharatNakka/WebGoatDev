@@ -22,9 +22,9 @@
     </style>
        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-   <!-- <script href="http://.../....jsp?css=<SCRIPT>CrossSiteScriptingCode</SCRIPT>"></script>
+    <script href="http://.../....jsp?css=<SCRIPT>CrossSiteScriptingCode</SCRIPT>"></script>
 	<script>document.cookie="sessionid=abcd";</script>">
-	<script>document.cookie="sessionid=1234567”;</script> -->
+	<script>document.cookie="sessionid=1234567”;</script>
 
 </head>
 <body onload='document.loginForm.username.focus();'>
@@ -77,7 +77,7 @@
                 </form> 
 		    </br>
 		</br> 
-                <form role="form" name='loginForm' action="<c:url value='j_spring_security_check' />" method='POST' style="width: 400px;">
+                <form role="form" name='loginForm' action="<c:url value='j_spring_security_check' />" method='Get' style="width: 400px;">
                     <div class="form-group">
                         <label for="exampleInputEmail1">Username</label>
                         <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Username" name='username'>
