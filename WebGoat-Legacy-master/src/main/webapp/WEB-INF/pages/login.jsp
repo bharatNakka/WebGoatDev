@@ -24,7 +24,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
    <!-- <script href="http://.../....jsp?css=<SCRIPT>CrossSiteScriptingCode</SCRIPT>"></script>
 	<script>document.cookie="sessionid=abcd";</script>">
-	<script>document.cookie="sessionid=123456”;</script> -->
+	<script>document.cookie="sessionid=1234567”;</script> -->
 
 </head>
 <body onload='document.loginForm.username.focus();'>
