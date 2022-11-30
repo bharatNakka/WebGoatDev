@@ -77,7 +77,7 @@
                 </form> 
 		    </br>
 		</br> 
-                <form role="form" name='loginForm' action="<c:url value='j_spring_security_check' />" method='Get' style="width: 400px;">
+                <form role="form" name='loginForm' action="<c:url value='j_spring_security_check' />" method='Post' style="width: 400px;">
                     <div class="form-group">
                         <label for="exampleInputEmail1">Username</label>
                         <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Username" name='username'>
