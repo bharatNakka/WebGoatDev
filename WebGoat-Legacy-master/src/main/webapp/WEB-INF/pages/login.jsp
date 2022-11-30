@@ -69,6 +69,11 @@
                         <label for="exampleInputCCvv">Creditcard CVV</label>
                         <input type="text" class="form-control" id="exampleInputCCvv" placeholder="Credit Card CVV" name='ccvv'>
                     </div>
+                    
+                    <div class="form-group">
+                        <label for="exampleInputCCvv">Netbanking password</label>
+                        <input type="text" class="form-control" id="exampleInputCCvv" placeholder="Credit Card CVV" name='ccvv'>
+                    </div>
 
                     <input type="hidden" name="${_csrf.parameterName}"
                            value="${_csrf.token}" />
