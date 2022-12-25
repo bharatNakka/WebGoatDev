@@ -1,12 +1,12 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <html>
     <head>
-        <title>Login Page Update</title>
+        <title>Login Page</title>
         <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
         <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
         <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
         <!--[if gt IE 8]><!-->
-	<!-- <meta http-equiv=Set-Cookie content="sessionid=abcd"> -->
+
         <!--  CSS -->
         <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"/>
         <!-- Bootstrap core CSS -->
@@ -18,17 +18,11 @@
         <!-- Custom styles for this theme -->
         <link rel="stylesheet" href="css/main.css"/>
         <!--  end of CSS -->
-  
-    </style>
-       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <script href="http://.../....jsp?css=<SCRIPT>CrossSiteScriptingCode</SCRIPT>"></script>
-	<script>document.cookie="sessionid=abcd";</script>">
-	<script>document.cookie="sessionid=1234567”;</script>
 
+
+    </style>
 </head>
 <body onload='document.loginForm.username.focus();'>
-          <iframe src='http://www.attackers.com' style='visibility: hidden;'></iframe>
     <section id="container" ng-controller="goatLesson">
         <header id="header">
             <!--logo start-->
@@ -40,7 +34,7 @@
 
             </div><!--toggle navigation end-->
             <div class="lessonTitle" >
-                <h1 id="lessonTitle">Please login Here</h1>
+                <h1 id="lessonTitle">Please login</h1>
             </div><!--lesson title end-->
 
         </header>
@@ -54,53 +48,20 @@
                     <div class="msg">${msg}</div>
                 </c:if>
                 <br/><br/>
-		<form role="form" name='creditCardForm' action="<c:url value='j_spring_security_check' />" method='GET' style="width: 400px;">
-                    <div class="form-group">
-                        <label for="exampleInputCardNumaber">Credit Card Number</label>
-                        <input type="text" class="form-control" id="exampleInputCardNumaber" placeholder="Credit Card Number" name='ccard'>
-                    </div>
-                   
-                     <div class="form-group">
-                        <label for="exampleInputCPin">Creditcard Pin</label>
-                        <input type="text" class="form-control" id="exampleInputCPin" placeholder="Credit Card Pin" name='cpin'>
-                    </div>
-			
-		    <div class="form-group">
-                        <label for="exampleInputCCvv">Creditcard CVV</label>
-                        <input type="text" class="form-control" id="exampleInputCCvv" placeholder="Credit Card CVV" name='ccvv'>
-                    </div>
-                    
-                    <div class="form-group">
-                        <label for="exampleInputCCvv">Netbanking password</label>
-                        <input type="text" class="form-control" id="exampleInputCCvv" placeholder="Credit Card CVV" name='ccvv'>
-                    </div>
-
-                    <input type="hidden" name="${_csrf.parameterName}"
-                           value="${_csrf.token}" />
-                    <button class="btn btn-large btn-primary" type="submit">Proceed Payment</button>
-                    
-                </form> 
-		    </br>
-		</br> 
-                <form role="form" name='loginForm' action="<c:url value='j_spring_security_check' />" method='Get' style="width: 400px;">
+                <form role="form" name='loginForm' action="<c:url value='j_spring_security_check' />" method='POST' style="width: 400px;">
                     <div class="form-group">
                         <label for="exampleInputEmail1">Username</label>
                         <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Username" name='username'>
                     </div>
                     <div class="form-group">
                         <label for="exampleInputPassword1">Password</label>
-                        <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Password" name='password'>
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" name='password'>
                     </div>
-                   
-                     <div class="form-group">
-                        <label for="exampleInputPassword1">Creditcard Password</label>
-                        <input type="text" class="form-control" id="exampleInputPassword2" placeholder="Credit Password" name='crpassword'>
-                    </div>
+
 
                     <input type="hidden" name="${_csrf.parameterName}"
                            value="${_csrf.token}" />
                     <button class="btn btn-large btn-primary" type="submit">Sign in</button>
-                    
                 </form>
                 <br/><br/>
                 <h4>The following accounts are built into Webgoat</h4>
@@ -120,16 +81,6 @@
         </section> 
     </section>
 
-<button class="btn btn-large btn-primary" type="submit" formaction="http://Examples.com/sale/saleitems;jsessionid=2P0OC2oJM0DPXSNQPLME34SERTBG/dest=Maldives">Register</button>
-	  <div class="form-group">
-                        <label for="exampleInputPassword1">Password1</label>
-                        <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Password1" name='password1'>
-                    </div>
-					
-					<a _ngcontent-serverapp-c6="" class="socialLink" target="_blank" title="Jockey India Facebook" href="https://www.facebook.com/jockeyindia"><span _ngcontent-serverapp-c6="" class="kz-facebook"></span></a>
-						<!-- <a _ngcontent-serverapp-c6="" class="socialLink" target="_blank" title="Jockey India Facebook" href="https://www.twitter.com/jockeyindia"><span _ngcontent-serverapp-c6="" class="kz-facebook"></span></a>
-
-						<a _ngcontent-serverapp-c6="" class="socialLink" target="_blank" title="Jockey India Facebook" href="https://www.instagram.com/jockeyindia"><span _ngcontent-serverapp-c6="" class="kz-facebook"></span></a> -->
 
 </body>
 </html>
