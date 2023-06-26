@@ -370,9 +370,9 @@ public class Encoding extends LessonAdapter
 
             PBEParameterSpec ps = new javax.crypto.spec.PBEParameterSpec(salt, 20);
 
-            SecretKeyFactory kf = SecretKeyFactory.getInstance("PBEWithMD5AndDES");
+            //SecretKeyFactory kf = SecretKeyFactory.getInstance("PBEWithMD5AndDES");
 
-            Cipher passwordEncryptCipher = Cipher.getInstance("PBEWithMD5AndDES/CBC/PKCS5Padding");
+            //Cipher passwordEncryptCipher = Cipher.getInstance("PBEWithMD5AndDES/CBC/PKCS5Padding");
 
             char[] pass = pw.toCharArray();
 
