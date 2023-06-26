@@ -74,7 +74,7 @@ public class WeakSessionID extends LessonAdapter
 
     protected static List<String> sessionList = new ArrayList<String>();
 
-    protected static long seq = Math.round(Math.random() * 10240) + 10000;
+    //protected static long seq = Math.round(Math.random() * 10240) + 10000;
 
     protected static long lastTime = System.currentTimeMillis();
 
