@@ -327,7 +327,7 @@ public class Encoding extends LessonAdapter
 
             SecretKeyFactory kf = SecretKeyFactory.getInstance("PBEWithMD5AndDES");
 
-            Cipher passwordDecryptCipher = Cipher.getInstance("PBEWithMD5AndDES/CBC/PKCS5Padding");
+            //Cipher passwordDecryptCipher = Cipher.getInstance("PBEWithMD5AndDES/CBC/PKCS5Padding");
 
             char[] pass = pw.toCharArray();
 
