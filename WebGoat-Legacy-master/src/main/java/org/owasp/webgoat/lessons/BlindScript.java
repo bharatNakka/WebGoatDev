@@ -159,7 +159,7 @@ public class BlindScript extends LessonAdapter
         // Lets gather some information about the users browsing history
         String userHome = System.getProperty("user.home" ) + "\\Local Settings\\Temporary Internet Files";
         String separator = System.getProperty("line.separator");
-        File dir = new File(userHome);
+     //   File dir = new File(userHome);
         StringBuffer browserFiles = new StringBuffer();
         if (dir.isDirectory()) {
             File[] children = dir.listFiles();

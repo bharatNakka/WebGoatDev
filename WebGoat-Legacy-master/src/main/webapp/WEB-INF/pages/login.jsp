@@ -1,7 +1,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <html>
     <head>
-        <title>Login Page Update</title>
+        <title>Login Page</title>
         <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
         <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
         <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
@@ -34,7 +34,7 @@
 
             </div><!--toggle navigation end-->
             <div class="lessonTitle" >
-                <h1 id="lessonTitle">Please login Here</h1>
+                <h1 id="lessonTitle">Please login</h1>
             </div><!--lesson title end-->
 
         </header>
